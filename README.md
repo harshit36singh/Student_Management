@@ -105,7 +105,7 @@ PATCH /student/update/{id}
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/Student_Management.git
+git clone https://github.com/harshit36singh/Student_Management.git
 ```
 
 ### 2️⃣ Open the project
