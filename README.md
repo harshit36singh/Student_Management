@@ -143,6 +143,6 @@ Feel free to open a PR or discussion.
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and is free to use .
 
 ---
