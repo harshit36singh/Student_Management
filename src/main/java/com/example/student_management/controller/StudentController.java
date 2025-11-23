@@ -58,12 +58,10 @@ public class StudentController {
     public ResponseEntity<StudentDto> updatestudentbyid(@PathVariable Long id,
             @RequestBody AddStudentrequest addStudentrequest) {
         return ResponseEntity.ok(studentService.updateStudentById(id, addStudentrequest));
-
     }
     @PatchMapping("/update/{id}")
     public ResponseEntity<StudentDto> updatestudent(@PathVariable Long id,
             @RequestBody Map<String,Object>  updates) {
-
                 return ResponseEntity.ok(studentService.patchupdate(id,updates));
     }
 }
